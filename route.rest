@@ -1,0 +1,19 @@
+GET http://localhost:3000/products/
+
+
+###
+
+GET http://localhost:3000/products/663fafac3093c559f7fa3c5c
+
+
+###
+
+POST http://localhost:3000/products/
+Content-Type: application/json
+
+{
+  "title": "teste",
+  "description":"ehvsadvhsajvh",
+  "category":"mug",
+  "price_in_cents":3000
+}
