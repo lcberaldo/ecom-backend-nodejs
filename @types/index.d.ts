@@ -10,6 +10,19 @@ export interface iProduct extends Document {
   created_at: Date;
 }
 
+export interface iUser extends Document {
+  user: string;
+  password: string;
+  email: string;
+  permission: number;
+  created_at: Date;
+}
+
+
 interface iResponse extends Response {
-  product?: iProduct
+  product?: iProduct;
+}
+
+interface iUserResponse extends Response {
+  user?: iUser;
 }

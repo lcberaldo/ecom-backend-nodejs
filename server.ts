@@ -20,7 +20,10 @@ db.once('open', () => console.log('Connected to database'));
 app.use(express.json());
 
 const productsRouter = require('./src/routes/products');
+const usersRouter = require('./src/routes/users')
+
 app.use('/products', productsRouter);
+app.use('/users', usersRouter);
 
 
 

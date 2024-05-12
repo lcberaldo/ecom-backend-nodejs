@@ -1,4 +1,4 @@
-import express, { NextFunction, Request, Response } from 'express';
+import express, { NextFunction, Request } from 'express';
 import Product from '../models/productSchema';
 import multer from 'multer'
 import { iProduct, iResponse } from '../../@types';
