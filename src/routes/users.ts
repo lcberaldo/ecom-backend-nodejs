@@ -46,7 +46,8 @@ router.post('/', async (req, res) => {
     user: req.body.user,
     password: hash,
     email: req.body.email,
-    permission: req.body.permission
+    permission: req.body.permission,
+    todos: []
   })
 
   try {

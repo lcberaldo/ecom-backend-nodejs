@@ -22,6 +22,7 @@ const userSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  todos: [String],
   created_at: {
     type: Date,
     default: Date.now(),

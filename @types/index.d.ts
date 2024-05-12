@@ -15,6 +15,7 @@ export interface iUser extends Document {
   password: string;
   email: string;
   permission: number;
+  todos: string[];
   created_at: Date;
 }
 
