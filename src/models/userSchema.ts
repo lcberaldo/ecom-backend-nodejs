@@ -23,6 +23,11 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   todos: [String],
+
+  status: {
+    type: Boolean,
+    required: true
+  },
   created_at: {
     type: Date,
     default: Date.now(),

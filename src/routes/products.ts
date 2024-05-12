@@ -34,8 +34,6 @@ async function getProduct(req: Request, res: iResponse, next: NextFunction) {
   res.product = product
 
   next()
-
-
 }
 
 // get all

@@ -17,6 +17,7 @@ export interface iUser extends Document {
   permission: number;
   todos: string[];
   created_at: Date;
+  status: boolean
 }
 
 
